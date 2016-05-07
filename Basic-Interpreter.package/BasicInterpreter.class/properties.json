@@ -1,0 +1,19 @@
+{
+	"category" : "Basic-Interpreter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"program",
+		"variables",
+		"nextAddress",
+		"end",
+		"returnAddress",
+		"loops" ],
+	"name" : "BasicInterpreter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
