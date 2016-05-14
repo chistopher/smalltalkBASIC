@@ -2,7 +2,7 @@ editProgram
 show
 
 	Transcript showln: '***************START***************'.
-	self program doWithIndex: [ :each :index |
+	self program do: [ :each |
 		each ifNotNil: [
-			Transcript showln: (index asString, ' ', (each joinSeparatedBy: ' '))]].
+			Transcript showln: (each joinSeparatedBy: ' ')]].
 	Transcript showln: '****************END****************'

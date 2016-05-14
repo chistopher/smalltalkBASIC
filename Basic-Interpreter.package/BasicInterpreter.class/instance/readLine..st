@@ -3,4 +3,4 @@ readLine: aBasicLine
 	
 	self program 
 		at: (aBasicLine subStrings: ' ') first asInteger
-		put: (aBasicLine subStrings: ' ') allButFirst.
+		put: (aBasicLine subStrings: ' ').
